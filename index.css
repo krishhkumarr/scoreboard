@@ -1,0 +1,102 @@
+
+
+/* .container {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Verdana", sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+
+@font-face {
+    font-family: 'CursedTimerUlil';
+    src: url('./font-folder/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;      /* vertical center */
+    justify-content: center;  /* horizontal center */
+    background-color: #414A6C;
+}
+
+.score-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.score-box{
+    background-color: #080001;
+    display: inline-flex;
+    flex-direction: column;
+    width: 155px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #F94F6D;
+    font-weight: regular;
+    font-family: 'CursedTimerUlil', sans-serif;
+    border-radius: 5px;
+    margin-top: -21px;
+    padding-top: 10px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -50px;
+    color: #EEEEEE;
+    font-family: "Verdana", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-container{
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    padding-bottom: 50px;
+} 
+
+.scoreboard-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 106px;
+    margin: 68px 82px;
+}
+
+
+.add-score-container{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 9px;
+    font-family: "CursedTimerUlil", sans-serif; 
+}
+
+.button-box{
+    border: 2px solid #9AABD8;
+    border-radius: 2px;
+    width:45px;
+    height: 45px;
+    font-family: "CursedTimerUlil", sans-serif; 
+    font-size: 20px;
+    text-align: center;
+    background-color: #1B244A;
+    color: #9AABD8;
+    
+}
